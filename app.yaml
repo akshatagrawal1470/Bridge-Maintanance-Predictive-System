@@ -1,0 +1,8 @@
+name: Bridge_predictive_maintenence_system
+description: ""
+ports: []
+bricks:
+- arduino:web_ui: {}
+- arduino:vibration_anomaly_detection:
+    model: ei-model-1094301-1
+icon: 😀
